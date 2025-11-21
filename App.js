@@ -34,13 +34,6 @@ const pizzas = [
     imagem: 'https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=400&h=300&fit=crop'
   },
   {
-    id: '5',
-    nome: 'Pizza Pepperoni',
-    descricao: 'Molho de tomate, mussarela e pepperoni importado',
-    valor: 42.90,
-    imagem: 'https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?w=400&h=300&fit=crop'
-  },
-  {
     id: '6',
     nome: 'Pizza Frango com Catupiry',
     descricao: 'Frango desfiado, catupiry cremoso, milho verde e mussarela',
@@ -126,7 +119,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
       <View style={styles.header}>
-        <Text style={styles.titulo}>🍕 Pizzaria da Região</Text>
+        <Text style={styles.titulo}>🍕 Pizzaria do Chamas</Text>
         <Text style={styles.subtitulo}>Cardápio Completo</Text>
       </View>
       
