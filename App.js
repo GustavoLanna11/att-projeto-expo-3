@@ -3,7 +3,6 @@ import { StyleSheet, View, FlatList, Text, TouchableOpacity, SafeAreaView } from
 import { StatusBar } from 'expo-status-bar';
 import { Image } from 'expo-image';
 
-// Dados locais da pizzaria
 const pizzas = [
   {
     id: '1',
@@ -84,7 +83,6 @@ const pizzas = [
   }
 ];
 
-// Função renderItem declarada como constante
 const renderItem = ({ item }) => (
   <View style={styles.card}>
     <Image
@@ -105,7 +103,6 @@ const renderItem = ({ item }) => (
         style={styles.botaoAdicionar}
         onPress={() => {
           console.log(`Adicionar ${item.nome} ao carrinho`);
-          // Aqui você pode adicionar lógica para adicionar ao carrinho
         }}
       >
         <Text style={styles.textoBotao}>Adicionar Item</Text>
